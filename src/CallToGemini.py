@@ -32,17 +32,6 @@ class QuestionRequest(BaseModel):
 class QuestionResponse(BaseModel):
     answer: str
 
-class DiagnoseRequest(BaseModel):
-    temperature: float
-    fat_porcent: float
-    weight: float
-    height: float
-    age: int
-    mood: str
-    cough: bool
-    other_symptoms: str
-    
-
 # Función para extraer texto de un PDF usando PyMuPDF
 def extract_with_pymupdf(path):
     parts = []
