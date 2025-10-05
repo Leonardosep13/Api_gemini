@@ -31,7 +31,7 @@ class QuestionRequest(BaseModel):
 
 class QuestionResponse(BaseModel):
     answer: str
-
+    
 # Función para extraer texto de un PDF usando PyMuPDF
 def extract_with_pymupdf(path):
     parts = []
