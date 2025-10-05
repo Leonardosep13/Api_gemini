@@ -3,5 +3,5 @@ uvicorn
 google-generativeai
 PyMuPDF
 pydantic
-python-multipart
+python-multipart 
 python-dotenv
