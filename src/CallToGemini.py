@@ -64,8 +64,6 @@ async def startup_event():
     except Exception as e:
         print(f"Error loading document: {e}")
 
-@app.post("/diagnose")
-
 
 @app.post("/ask", response_model=QuestionResponse)
 async def ask_question(request: QuestionRequest):
