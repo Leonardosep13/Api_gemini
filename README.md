@@ -19,8 +19,7 @@ python main.py
 Create a `.env` file with:
 ```
 GOOGLE_API_KEY=your_api_key_here
-PORT=8000
-RELOAD=true
+
 ```
 
 ## License
