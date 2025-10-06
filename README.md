@@ -1,26 +1,44 @@
-# API Chatbot - NASA Hackathon
+🚀 NASA Hackathon - Chatbot API
 
-Chatbot API built with FastAPI and Google Generative AI for NASA Hackathon.
+Chatbot API built with FastAPI and Google Generative AI, created for the NASA Hackathon.
+This API provides intelligent conversational capabilities designed for space-related contexts and astronaut interaction.
 
-## Installation
+🌐 Live Service
 
-```bash
+You can access the deployed API here:
+👉 https://api-gemini-2lev.onrender.com/
+
+To explore the interactive API documentation (Swagger UI):
+📘 https://api-gemini-2lev.onrender.com/docs
+
+⚙️ Installation
+
+Clone the repository and install dependencies:
+
 pip install -r requirements.txt
-```
 
-## Usage
+▶️ Usage
 
-```bash
+Run the API locally:
+
 python main.py
-```
 
-## Environment Variables
+🔐 Environment Variables
 
-Create a `.env` file with:
-```
+Create a .env file in the project root with the following content:
+
 GOOGLE_API_KEY=your_api_key_here
-```
 
-## License
+📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
+See the LICENSE
+ file for more details.
+
+🛰️ Additional Notes
+
+Built with FastAPI, Python 3.10+, and Google Generative AI.
+
+Deployed using Render for public access.
+
+Includes automatic documentation generation with Swagger UI.
