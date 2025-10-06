@@ -32,8 +32,8 @@ GOOGLE_API_KEY=your_api_key_here
 📄 License
 
 This project is licensed under the MIT License.
-See the LICENSE
- file for more details.
+See the [LICENSE](LICENSE)
+file for more details.
 
 🛰️ Additional Notes
 
